@@ -1,0 +1,18 @@
+{
+  "name": "akh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "akh",
+  "license": "LICENSE.md oku",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.3",
+    "node-fetch": "^2.6.7",
+    "discord.js":"^14.18.0"
+    
+  }
+}
