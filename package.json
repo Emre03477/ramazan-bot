@@ -1,5 +1,5 @@
 {
-  "name": "akh",
+  "name": "AyranCodeShare",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "akh",
+  "author": "AyranCodeShare",
   "license": "LICENSE.md oku",
   "dependencies": {
     "@discordjs/rest": "^2.4.3",
