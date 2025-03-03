@@ -1,6 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, StringSelectMenuBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const fetch = require('node-fetch');
-const croxydb = require('croxydb');
+
 
 // API key'ler keyler için: https://collectapi.com/tr/api/pray/namaz-vakitleri-api
 const keys = [
