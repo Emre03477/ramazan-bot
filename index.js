@@ -2,8 +2,7 @@ const { Client, GatewayIntentBits, Routes, ActionRowBuilder, ButtonBuilder, Butt
 const { REST } = require("@discordjs/rest");
 const fs = require("fs");
 const path = require("path");
-const config = require("./config.json");
-const db = require("croxydb");
+
 // Ayran Code Share
 const client = new Client({ 
     intents: [
