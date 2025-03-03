@@ -10,7 +10,7 @@ const keys = [
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('namaz')
-    .setDescription('Belirtilen şehir için namaz vakitlerini gösterir ve alarm oluşturmanızı sağlar.')
+    .setDescription('Belirtilen şehir için namaz vakitlerini gösterir')
     .addStringOption(option =>
       option.setName('şehir')
         .setDescription('Namaz vakitlerini öğrenmek istediğiniz şehir.')
@@ -37,7 +37,7 @@ module.exports = {
       const embed = new EmbedBuilder()
         .setTitle(`🕌 ${selectedCity.toUpperCase()} Namaz Vakitleri`)
         .setColor('#57F287')
-        .setDescription('Aşağıda namaz vakitleri listelenmiştir. Alarm oluşturmak için **Alarm Oluştur** butonuna tıklayın.')
+        .setDescription('Aşağıda namaz vakitleri listelenmiştir.')
         .addFields(
           { name: '🌅 İmsak', value: prayerTimes.find(time => time.vakit === 'İmsak')?.saat || 'Bilgi yok', inline: true },
           { name: '☀️ Güneş', value: prayerTimes.find(time => time.vakit === 'Güneş')?.saat || 'Bilgi yok', inline: true },
